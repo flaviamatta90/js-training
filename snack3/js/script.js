@@ -13,5 +13,5 @@ function join(array1, array2) {
     }
     return arrayEmpty;
   }
-  return null
+  return false
 }
