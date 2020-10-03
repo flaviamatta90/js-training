@@ -10,8 +10,9 @@ function random(min, max){
 }
 
 // numeri scelti dall'utente + numeri casuali
+var arrayVuoto = [];
+
 for (var i = 0; i < n; i++) {
-  var arrayVuoto = [];
   for (var y = 0; y < 10; y++){
     arrayVuoto.push(random(1,100));
   }
