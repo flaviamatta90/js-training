@@ -17,6 +17,5 @@ for (var i = 0; i < n; i++) {
     arrayVuoto.push(random(1,100));
   }
 }
-
 // Ogni volta che ne crei uno, stampalo a schermo.
 document.write("il numero scelto dall'utente --> " + n + " " + "e i numeri random da 1 a 100 --> " + arrayVuoto);
